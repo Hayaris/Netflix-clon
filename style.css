@@ -1,0 +1,471 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    min-width: 400px;
+    background: #000;
+    width: 100%;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+}
+
+.logo {
+   width: 125px;
+   margin: 10px;
+   min-width: 120px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.button {
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 125px;
+    color: #fff;
+    font-size: 16px;
+    margin: 15px 15px;
+    min-width: 120px;
+    font-weight: 600;
+}
+
+.button:hover, .button2:hover, .button3:hover {
+    background-color: #de0c0c;
+    cursor: pointer;
+}
+
+.container-img {
+    width: 100%;
+    height: 625px;   
+    margin: 0;
+    min-width: 400px;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(Img/fondo.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: -100px;
+}
+
+.container5 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-top: 150px;
+}
+
+.tittle {
+    position: relative;
+    color: #fff;
+    font-size: 2rem;
+    justify-items: center;
+    text-align: center;
+    margin: 0px 20px;
+    font-weight: 800;
+}
+
+.tittle2 {
+    position: relative;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.tittle3 {
+    position: relative;
+    color: #fff;
+    font-size: 1.2rem;
+    justify-items: center;
+    text-align: center;
+    font-weight: 400;
+    margin: 0px 20px;
+}
+
+.tittle4 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 15px;
+    font-family: unset;
+}
+
+.tittle5 {
+    margin-left: 25px;
+    color: #fff;
+    font-weight: 500;
+    font-family: unset;
+    font-size: 25px;
+}
+
+.input-email {
+    position: relative;
+    color: #fff;
+    font-size: 1.5rem;
+    justify-items: center;
+    border: 1px solid grey;
+    background-color: #000;
+    width: 350px;
+    height: 50px;
+}
+
+    .items1, .items2, .items3, .items4 {
+        width: 7rem;
+    }
+
+.input-email::placeholder {
+    font-size: 19px;
+    padding-left: 3px;
+}
+
+.button2 {
+    position: relative;
+    background-color: red;
+    color: #fff;
+    font-size: 1.2rem;
+    width: 50%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.container-img::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 8px; 
+  background: linear-gradient(to top,
+    rgba(184, 40, 105, 1),
+    rgba(229, 9, 20, 1),
+    rgba(184, 40, 105, 1));
+  border-top-left-radius: 100% 20px;
+  border-top-right-radius: 100% 20px;
+}
+
+.section-container {
+    width: 100%;
+}
+
+.img-items {
+    width: 130px;
+    height: 170px;
+   transition: transform 0.3s ease;
+   margin-left: 10px;
+   border-radius: 10px;
+}
+
+.img-items:hover {
+   transform: scale(1.1);
+   cursor: pointer;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    overflow-y: hidden;
+}
+
+.flex-container2 {
+    display: flex;
+    justify-content: end;
+    align-items: start;
+}
+
+.div-items {
+    height: 200px;
+    box-sizing: border-box;
+    margin: 0px 5px;
+    display: flex;
+    background: #140213;
+    background: linear-gradient(335deg, rgba(20, 2, 19, 1) 0%, rgba(29, 29, 64, 1) 100%);
+    flex-direction: column;
+    padding: 0px 10px;
+    min-width: 10%;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 97%;
+}
+
+.tittle6 {
+    color: #fff;
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.tittle7 {
+    color: #fff;
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+p {
+    color: #fff;
+    font-size: 1rem;
+    margin: 0px 5px;
+}
+
+
+.button-items {
+    width: 98%;
+    height: 85px;
+    margin: 0px 5px;
+    margin-top: 10px;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-items:hover {
+    cursor: pointer;
+    background-color: #444;
+}
+
+.p-items {
+    font-size: 20px;
+}
+
+.text {
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.article1 {
+    margin: 0px 20px;
+}
+
+.article2 {
+      display: flex;
+    flex-direction: column;
+}
+
+.form1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-email2 {
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+
+.input-email3 {
+    position: relative;
+    color: #fff;
+    font-size: 1.5rem;
+    justify-items: center;
+    border: 1px solid grey;
+    background-color: #000;
+    width: 350px;
+    height: 40px;
+}
+
+.input-email3::placeholder {
+  padding-left: 5px;
+}
+
+.input-email2 {
+    color: #fff;
+    font-size: 1.4rem;
+    justify-items: center;
+    border: 1px solid grey;
+    background-color: #000;
+    width: 100%;
+    height: 40px;
+}
+
+.input-email2::placeholder {
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.input-email2:active {
+    border: 1px  solid #fff;
+}
+
+.button3 {
+    background-color: red;
+    color: #fff;
+    font-size: 1.2rem;
+    width: 40%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.number {
+    padding-left: 15px;
+    font-size: 1.2rem;
+    color: rgba(255,255,255,0.7);
+}
+
+.link {
+    color: rgba(255,255,255,0.7);
+}
+
+.a-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.a-items {
+    margin-left: 25px;
+    font-size: 1rem;
+    color: rgba(255,255,255,0.7);
+}
+
+.nic {
+    margin-left: 25px;
+    font-size: 1.2rem;
+    color: rgba(255,255,255,0.7);
+    height: 100px;
+}
+
+@media only screen and (min-width: 600px) {
+
+    .form-input {
+        display: flex;
+        gap: 5px;
+    }
+
+    .section-container2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .container5 {
+        margin-bottom: -450px;
+    }
+
+    .tittle, .tittle2, .tittle3 {
+        font-size: 1.6rem;
+    }
+
+    .form1 {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .input-email3 {
+        height: 50px;
+        width: 750px;
+    }
+
+    .button3 {
+        max-width: 228px;
+    }
+
+    .a-container {
+        display: grid;
+        grid-template-columns: repeat(2, 250px);
+    }
+}
+
+@media only screen and (min-width: 960px) {
+
+   .logo {
+    width: 150px;
+    margin-left: 50px;
+   }
+
+   .button {
+      margin-right: 60px;
+   }
+
+   .tittle {
+    font-size: 45px;
+   }
+
+   .section-container2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+   }
+
+       .a-container {
+        display: grid;
+        grid-template-columns: repeat(3, 250px);
+    }
+
+
+}
+
+@media only screen and (min-width: 1080px) {
+
+    .section-container2 {
+        display: flex;
+        margin: 0px 10px;
+    }
+
+    .form1 {
+        justify-content: center;
+    }
+
+    .text {
+        text-align: center;
+    }
+
+    .flex-container {
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .img-items {
+        width: 180px;
+        height: 252px;
+    }
+
+    .div-items {
+        width: 100%;
+        height: 300px;
+    }
+
+    .a-container {
+        display: grid;
+        grid-template-columns: repeat(4, 350px);
+    }
+
+    .button-items {
+        margin: 5px 18px;
+    }
+}
