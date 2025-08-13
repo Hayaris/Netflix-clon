@@ -126,6 +126,11 @@ body {
     font-size: 25px;
 }
 
+.max {
+    font-size: 40px;
+    margin-right: 20px;
+}
+
 .input-email {
     position: relative;
     color: #fff;
@@ -245,7 +250,7 @@ p {
 .button-items {
     width: 98%;
     height: 85px;
-    margin: 0px 5px;
+    margin: 0px 4px;
     margin-top: 10px;
     background-color: #333;
     display: flex;
